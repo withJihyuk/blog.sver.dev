@@ -2,6 +2,8 @@
 title = '쉽고 빠르게 CloudFlare Tunnel 설정하기'
 date = 2023-11-20T16:46:34+09:00
 draft = false
+tags = ["first", "cloudflare","tunnels","ICN", "디도스", "공격","서버"]
+
 +++
 
 # TL;DR
@@ -28,11 +30,11 @@ draft = false
 ![Alt text](https://cdn.jsdelivr.net/gh/sverdev/blog.sver.dev@latest/blog/static/img/post/easy_to_cloudflare_tunnels/easy_to_cloudflare_tunnels-image-4.png)
 이름을 정하고 Save Tunnel 버튼을 누르면, 위와 같이 기기와 연동하는 페이지가 먼저 뜨게 되는데요, **자신의 시스템에 맞게** 선택하시면 됩니다. 전 Debian-x64를 연동할 예정이기 때문에 선택하였습니다.
 
-그 후, 아래 **'If you don’t have cloudflared installed on your machine:'**라고 되어 있는 박스 안의 코드를 터미널에 붙여 넣으면, 자동으로 설치가 이루어집니다.
+그 후, 아래 **'If you don’t have cloudflared installed on your machine:'** 라고 되어 있는 박스 안의 코드를 터미널에 붙여 넣으면, 자동으로 설치가 이루어집니다.
 
-- 만약 이미 Cloudflared 가 설치되어 있다면, **'If you already have cloudflared installed on your machine:'**의 명령어만 붙여 넣으셔도 됩니다.
+- 만약 이미 Cloudflared 가 설치되어 있다면, **'If you already have cloudflared installed on your machine:'** 의 명령어만 붙여 넣으셔도 됩니다.
 
-설치가 되셨다면, Next 버튼을 통해 'Route tunnel'로 가셔서 아래와 같이 사용하실 **서브도메인, 도메인, Path(필요시), Type, URL**을 설정해 주시면 완료됩니다. 전 예시로 HTTP 프로토콜의 localhost:3000을 라우팅해보았습니다. 필요하시다면 아래 **'Additional application settings'**를 통하여 세부 설정을 해줄 수 있습니다.
+설치가 되셨다면, Next 버튼을 통해 'Route tunnel'로 가셔서 아래와 같이 사용하실 **서브도메인, 도메인, Path(필요시), Type, URL** 을 설정해 주시면 완료됩니다. 전 예시로 HTTP 프로토콜의 localhost:3000을 라우팅해보았습니다. 필요하시다면 아래 **'Additional application settings'** 를 통하여 세부 설정을 해줄 수 있습니다.
 
 ![Alt text](https://cdn.jsdelivr.net/gh/sverdev/blog.sver.dev@latest/blog/static/img/post/easy_to_cloudflare_tunnels/easy_to_cloudflare_tunnels-image-5.png)
 

@@ -114,7 +114,7 @@ menu:
       weight: 10
     - identifier: tags
       name: 태그
-      url: /tags/x`
+      url: /tags`
       weight: 20
     # - identifier: example
     #   name: example.org
