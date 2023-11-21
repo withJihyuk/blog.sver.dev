@@ -19,7 +19,7 @@ tags = ["first", "cloudflare","tunnels","ICN", "디도스", "공격","서버"]
 
 그럼 아래와 같은 화면이 나오실 텐데, 왼쪽 사이드 바에서 Access -> Tunnels를 눌러주시면 됩니다.
 
-![Alt text](https://cdn.jsdelivr.net/gh/sverdev/blog.sver.dev@latest/blog/static/img/post/easy_to_cloudflare_tunnels/easy_to_cloudflare_tunnels-image-1.png)
+![Alt text](https://cdn.jsdelivr.net/gh/sverdev/blog.sver.dev@latest/blog/static/img/post/easy_to_cloudflare_tunnels/easy_to_cloudflare_tunnels-image-0.png)
 
 누르셨다면 다음과 같은 화면이 출력 될 텐데, 전 기존에 만들었던 터널이 있어서 이런 식으로 리스트가 뜨지만, 신규 생성의 경우 다르게 뜨거나 연속되는 이미지와 같이 터널을 생성하는 창이 바로 뜰 수 있습니다. 기억상 생성 화면이 먼저 떴던 걸로 기억이 나서, 연속되게 이미지를 첨부했습니다.
 
