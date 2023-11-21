@@ -1,5 +1,5 @@
 baseURL: "https://blog.sver.dev/"
-title: SVER-DEV
+title: 지혁이의 일기
 paginate: 5
 theme: PaperMod
 languageCode: ko-kr
