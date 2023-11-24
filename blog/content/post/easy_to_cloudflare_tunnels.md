@@ -1,6 +1,7 @@
 +++
 title = '쉽고 빠르게 CloudFlare Tunnel 설정하기'
 date = 2023-11-20T16:46:34+09:00
+categories=["homelab"]
 draft = false
 tags = ["first", "cloudflare","tunnels","ICN", "디도스", "공격","서버"]
 
