@@ -1,5 +1,5 @@
 baseURL: "https://blog.sver.dev/"
-title: SVER-DEV
+title: 지혁이의 일기
 paginate: 5
 theme: PaperMod
 languageCode: ko-kr
@@ -18,8 +18,8 @@ defaultContentLanguage: "ko"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: SVER-DEV
-  description: "SVER-DEV의 기술 겸 일상 블로그입니다 ✨"
+  title: 지혁이의 일기
+  description: "지혁이의 기술 겸 일상 블로그입니다 ✨"
   keywords: [Blog, Portfolio, PaperMod]
   author: SVER-DEV
   # author: ["Me", "You"] # multiple authors
@@ -51,7 +51,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "SVER-DEV"
+    text: "지혁이의 일기"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -72,7 +72,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "반가워요, SVER-DEV 입니다 \U0001F44B"
+    Title: "반가워요, 학생 개발자 지혁입니다 \U0001F44B"
     Content: 제 블로그에 오신걸 환영합니다. 이곳은 기술과 제 일상을 모두 기록 해둘 예정입니다 🌊
 
   socialIcons:
