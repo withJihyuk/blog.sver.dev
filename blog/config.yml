@@ -18,7 +18,7 @@ defaultContentLanguage: "ko"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: 지혁이의 일기
+  title: 일기장
   description: "지혁이의 기술 겸 일상 블로그입니다 ✨"
   keywords: [Blog, Portfolio, PaperMod]
   author: SVER-DEV
