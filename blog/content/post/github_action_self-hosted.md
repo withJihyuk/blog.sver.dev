@@ -2,6 +2,7 @@
 title = 'Github action self-hosted를 이용한 도커 빌드 및 배포'
 date = 2023-11-27T12:23:53+09:00
 categories=["homelab"]
+description= "Github action을 통해 로컬 서버에 도커 빌드 및 배포"
 draft = false
 tags = ["github","docker","self-hosted", "홈랩", "서버"]
 +++

@@ -2,6 +2,7 @@
 title = '쉽고 빠르게 CloudFlare Tunnel 설정하기'
 date = 2023-11-20T16:46:34+09:00
 categories=["homelab"]
+description= "Cloudflare 터널링을 이용해 외부 포트 노출 없이 서비스 운영하기 ✨"
 draft = false
 tags = ["first", "cloudflare","tunnels","ICN", "디도스", "공격","서버"]
 
