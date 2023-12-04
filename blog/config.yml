@@ -10,6 +10,11 @@ buildExpired: false
 
 googleAnalytics: G-7GXRQ4Y827
 
+sitemap:
+  changeFreq: "daily"
+  filename: sitemap.xml
+  priority: -1
+
 minify:
   disableXML: true
   minifyOutput: true
