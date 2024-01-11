@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.box {
+  --tw-border-opacity: 1;
+  border-color: #d1d5db;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding: 1.25rem 1.25rem 0.875rem 1.5rem;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  animation: moveText 30s linear infinite; /* 애니메이션 이름, 지속시간, 타이밍 함수, 반복 설정 등을 조절할 수 있습니다 */
+}
+
+@keyframes moveText {
+  from {
+    transform: translateX(-100%); /* 텍스트를 오른쪽으로 이동시킬 시작 위치 */
+  }
+  to {
+    transform: translateX(100%); /* 텍스트를 왼쪽으로 이동시킬 목표 위치 */
+  }
+}
